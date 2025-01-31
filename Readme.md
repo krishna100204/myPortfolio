@@ -1,14 +1,10 @@
-# My Awesome Project
-
-This project is designed to help users accomplish X, Y, and Z. It is built using [Technology/Framework] and aims to provide [specific benefits].
-
-## Installation
+# Installation
 
 To install the project, clone the repository and run the following command:
 
 ```
 git clone https://github.com/krishna100204/myPortfolio.git
-cd my-awesome-project
+cd myPortfolio
 npm install
 ```
 
@@ -32,6 +28,3 @@ We welcome contributions! Please follow these steps:
 4. Push to the branch (`git push origin feature-branch`).
 5. Create a pull request.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
