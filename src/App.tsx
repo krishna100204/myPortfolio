@@ -12,7 +12,7 @@ function App() {
       image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=1000',
       technologies: ['Java', 'SQL', 'HTML', 'CSS', 'JavaScript'],
       githubLink: 'https://github.com/krishna100204/WanderLust.git',
-      liveLink: '#',
+      liveLink: 'https://wanderlust-tycy.onrender.com/signup',
     },
     {
       title: 'Spotify Clone',
@@ -20,7 +20,6 @@ function App() {
       image: 'https://images.unsplash.com/photo-1611339555312-e607c8352fd7?auto=format&fit=crop&q=80&w=1000',
       technologies: ['MongoDB', 'JavaScript', 'HTML', 'CSS'],
       githubLink: 'https://github.com/krishna100204/Spotify-Clone.git',
-      liveLink: '#',
     },
     {
       title: 'Simon Says Game',
@@ -117,7 +116,7 @@ function App() {
             >
               <Code2 className="w-12 h-12 text-blue-600 mb-4" />
               <h3 className="text-xl font-bold mb-2">Frontend Development</h3>
-              <p className="text-gray-600">Proficient in HTML, CSS, and JavaScript, creating responsive and intuitive user interfaces.</p>
+              <p className="text-gray-600">Proficient in HTML, CSS, React and JavaScript, creating responsive and intuitive user interfaces.</p>
             </motion.div>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -127,7 +126,7 @@ function App() {
             >
               <Server className="w-12 h-12 text-blue-600 mb-4" />
               <h3 className="text-xl font-bold mb-2">Backend Development</h3>
-              <p className="text-gray-600">Experienced in Java and C++, building robust and scalable server-side applications.</p>
+              <p className="text-gray-600">Proficient in Node.js, Express.js, building robust and scalable server-side applications.</p>
             </motion.div>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -191,7 +190,7 @@ function App() {
               <span>GitHub</span>
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/krishna1002?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
               className="flex items-center gap-2 text-gray-600 hover:text-blue-600 transition-colors"
             >
               <Linkedin size={24} />
