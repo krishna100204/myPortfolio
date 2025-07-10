@@ -24,6 +24,19 @@ function App() {
     liveLink: 'https://wanderlust-tycy.onrender.com/signup',
   },
   {
+  title: 'SkyCast – React Weather App',
+  description:
+    'A fast, responsive, and modern weather forecasting app built with React and Vite. Users can search any city to view current weather conditions like temperature, humidity, and wind speed.',
+  image:
+    'https://images.unsplash.com/photo-1501973801540-537f08ccae7b?auto=format&fit=crop&q=80&w=1000',
+  technologies: [
+    'React', 'Vite', 'OpenWeatherMap API', 'CSS Modules'
+  ],
+  githubLink: 'https://github.com/krishna100204/SkyCast',
+ 
+},
+
+  {
     title: 'Simon Says Game',
     description: 'A modern take on the classic memory game, built with clean code principles. Features increasing difficulty levels, sound effects, and high score tracking.',
     image: 'https://images.unsplash.com/photo-1611996575749-79a3a250f948?auto=format&fit=crop&q=80&w=1000',
