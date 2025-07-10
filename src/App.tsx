@@ -6,29 +6,39 @@ import ProjectCard from './components/ProjectCard';
 
 function App() {
   const projects = [
-    {
-      title: 'WanderLust - Hotel Booking System',
-      description: 'A comprehensive hotel booking platform built with modern web technologies. Features include user authentication, detailed room listings, booking management, and an intuitive admin dashboard.',
-      image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=1000',
-      technologies: ['Java', 'SQL', 'HTML', 'CSS', 'JavaScript'],
-      githubLink: 'https://github.com/krishna100204/WanderLust.git',
-      liveLink: 'https://wanderlust-tycy.onrender.com/signup',
-    },
-    {
-      title: 'Spotify Clone',
-      description: 'A feature-rich music streaming application that replicates core Spotify functionality. Includes playlist management, music player with controls, and personalized user profiles.',
-      image: 'https://images.unsplash.com/photo-1611339555312-e607c8352fd7?auto=format&fit=crop&q=80&w=1000',
-      technologies: ['MongoDB', 'JavaScript', 'HTML', 'CSS'],
-      githubLink: 'https://github.com/krishna100204/Spotify-Clone.git',
-    },
-    {
-      title: 'Simon Says Game',
-      description: 'A modern take on the classic memory game, built with clean code principles. Features increasing difficulty levels, sound effects, and high score tracking.',
-      image: 'https://images.unsplash.com/photo-1611996575749-79a3a250f948?auto=format&fit=crop&q=80&w=1000',
-      technologies: ['HTML', 'CSS', 'JavaScript'],
-      githubLink: 'https://github.com/krishna100204/Simon-Says-Game.git',
-    },
-  ];
+  {
+    title: 'NexMeet – Real-Time Video Calling and Chat Application',
+    description:
+      'A full-stack video conferencing tool with real-time chat and screen sharing, built using WebRTC and Socket.io. Includes user authentication, meeting history, and a responsive UI.',
+    image:
+      'https://images.unsplash.com/photo-1590650046871-92c887180603?auto=format&fit=crop&q=80&w=1000',
+    technologies: ['React.js', 'Node.js', 'Socket.io', 'WebRTC', 'Material UI', 'MongoDB'],
+    githubLink: 'https://github.com/krishna100204/nexmeet',
+  },
+  {
+    title: 'WanderLust - Hotel Booking System',
+    description: 'A comprehensive hotel booking platform built with modern web technologies. Features include user authentication, detailed room listings, booking management, and an intuitive admin dashboard.',
+    image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=1000',
+    technologies: ['Node.js', 'Express.js', 'MongoDB', 'HTML', 'CSS', 'Bootstrap', 'JavaScript'],
+    githubLink: 'https://github.com/krishna100204/WanderLust.git',
+    liveLink: 'https://wanderlust-tycy.onrender.com/signup',
+  },
+  {
+    title: 'Simon Says Game',
+    description: 'A modern take on the classic memory game, built with clean code principles. Features increasing difficulty levels, sound effects, and high score tracking.',
+    image: 'https://images.unsplash.com/photo-1611996575749-79a3a250f948?auto=format&fit=crop&q=80&w=1000',
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+    githubLink: 'https://github.com/krishna100204/Simon-Says-Game.git',
+  },
+  {
+    title: 'Spotify Clone',
+    description: 'A feature-rich music streaming application that replicates core Spotify functionality. Includes playlist management, music player with controls, and personalized user profiles.',
+    image: 'https://images.unsplash.com/photo-1611339555312-e607c8352fd7?auto=format&fit=crop&q=80&w=1000',
+    technologies: [ 'HTML', 'CSS'],
+    githubLink: 'https://github.com/krishna100204/Spotify-Clone.git',
+  },
+];
+
 
   return (
     <div className="min-h-screen bg-gray-50">
